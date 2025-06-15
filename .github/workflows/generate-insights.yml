@@ -1,5 +1,10 @@
 name: Generate Insights
 
+# Ставим только чтение встроенному токену,
+# чтобы не было лишних прав, и явно используем PAT для записи.
+permissions:
+  contents: read
+
 on:
   schedule:
     - cron: "0 1 * * *"
@@ -10,11 +15,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repository (read-only)
         uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
+          persist-credentials: false
+
+      - name: Configure push access via PAT
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git
 
       - name: Ensure 'insights' branch exists
         run: |
@@ -24,7 +34,7 @@ jobs:
       - name: Generate GitHub Insights
         uses: emillg/github-repo-insights@v1.1.0
         with:
-          repos: "https://github.com/source-Alexander-Rudenko/vk_ads_test"
+          repos: "source-Alexander-Rudenko/vk_ads_test"
           pat-token: ${{ secrets.PAT_TOKEN }}
 
       - name: Commit and push insights
