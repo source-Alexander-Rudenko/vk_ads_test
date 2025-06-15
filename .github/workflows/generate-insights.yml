@@ -1,0 +1,36 @@
+name: Generate Insights
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate-insights:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Ensure 'insights' branch exists
+        run: |
+          git fetch origin insights || echo "No 'insights' branch found"
+          git checkout insights || git checkout -b insights
+
+      - name: Generate GitHub Insights
+        uses: emillg/github-repo-insights@v1.1.0
+        with:
+          repos: "https://github.com/source-Alexander-Rudenko/vk_ads_test"
+          pat-token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Commit and push insights
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Update GitHub Insights" || echo "No changes to commit"
+          git push origin insights
