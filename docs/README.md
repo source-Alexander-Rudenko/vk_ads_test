@@ -10,7 +10,7 @@
   "title": "Top 10 Repositories by Visitors",
   "data": {
     "values": [
-      {"repository": "vk_ads_test", "views": 2}
+      {"repository": "vk_ads_test", "views": 5}
     ]
   },
   "mark": "bar",
@@ -30,7 +30,7 @@
   "title": "Top 10 Repositories by Git Clones",
   "data": {
     "values": [
-      {"repository": "vk_ads_test", "clones": 25}
+      {"repository": "vk_ads_test", "clones": 36}
     ]
   },
   "mark": "bar",
@@ -53,7 +53,11 @@
   "data": {
     "values": [
       {"date": "2025-06-13", "type": "Total Views", "value": 2},
-      {"date": "2025-06-13", "type": "Unique Views", "value": 1}
+      {"date": "2025-06-14", "type": "Total Views", "value": 0},
+      {"date": "2025-06-15", "type": "Total Views", "value": 3},
+      {"date": "2025-06-13", "type": "Unique Views", "value": 1},
+      {"date": "2025-06-14", "type": "Unique Views", "value": 0},
+      {"date": "2025-06-15", "type": "Unique Views", "value": 1}
     ]
   },
   "mark": "line",
@@ -100,13 +104,15 @@
       {"date": "2025-06-12", "type": "Total Clones", "value": 0},
       {"date": "2025-06-13", "type": "Total Clones", "value": 0},
       {"date": "2025-06-14", "type": "Total Clones", "value": 0},
-      {"date": "2025-06-15", "type": "Total Clones", "value": 12},
+      {"date": "2025-06-15", "type": "Total Clones", "value": 22},
+      {"date": "2025-06-16", "type": "Total Clones", "value": 1},
       {"date": "2025-06-10", "type": "Unique Clones", "value": 8},
       {"date": "2025-06-11", "type": "Unique Clones", "value": 5},
       {"date": "2025-06-12", "type": "Unique Clones", "value": 0},
       {"date": "2025-06-13", "type": "Unique Clones", "value": 0},
       {"date": "2025-06-14", "type": "Unique Clones", "value": 0},
-      {"date": "2025-06-15", "type": "Unique Clones", "value": 10}
+      {"date": "2025-06-15", "type": "Unique Clones", "value": 14},
+      {"date": "2025-06-16", "type": "Unique Clones", "value": 1}
     ]
   },
   "mark": "line",
