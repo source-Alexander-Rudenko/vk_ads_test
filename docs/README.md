@@ -30,7 +30,7 @@
   "title": "Top 10 Repositories by Git Clones",
   "data": {
     "values": [
-      {"repository": "vk_ads_test", "clones": 36}
+      {"repository": "vk_ads_test", "clones": 40}
     ]
   },
   "mark": "bar",
@@ -105,14 +105,16 @@
       {"date": "2025-06-13", "type": "Total Clones", "value": 0},
       {"date": "2025-06-14", "type": "Total Clones", "value": 0},
       {"date": "2025-06-15", "type": "Total Clones", "value": 22},
-      {"date": "2025-06-16", "type": "Total Clones", "value": 1},
+      {"date": "2025-06-16", "type": "Total Clones", "value": 4},
+      {"date": "2025-06-17", "type": "Total Clones", "value": 1},
       {"date": "2025-06-10", "type": "Unique Clones", "value": 8},
       {"date": "2025-06-11", "type": "Unique Clones", "value": 5},
       {"date": "2025-06-12", "type": "Unique Clones", "value": 0},
       {"date": "2025-06-13", "type": "Unique Clones", "value": 0},
       {"date": "2025-06-14", "type": "Unique Clones", "value": 0},
       {"date": "2025-06-15", "type": "Unique Clones", "value": 14},
-      {"date": "2025-06-16", "type": "Unique Clones", "value": 1}
+      {"date": "2025-06-16", "type": "Unique Clones", "value": 3},
+      {"date": "2025-06-17", "type": "Unique Clones", "value": 1}
     ]
   },
   "mark": "line",
@@ -148,5 +150,5 @@
 
 | Referral Source | Views | Unique Visitors |
 |-|-|-|
-| github.com | 2 | 1 |
+| github.com | 5 | 2 |
 
