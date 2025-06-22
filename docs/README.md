@@ -10,7 +10,7 @@
   "title": "Top 10 Repositories by Visitors",
   "data": {
     "values": [
-      {"repository": "vk_ads_test", "views": 5}
+      {"repository": "vk_ads_test", "views": 8}
     ]
   },
   "mark": "bar",
@@ -30,7 +30,7 @@
   "title": "Top 10 Repositories by Git Clones",
   "data": {
     "values": [
-      {"repository": "vk_ads_test", "clones": 50}
+      {"repository": "vk_ads_test", "clones": 53}
     ]
   },
   "mark": "bar",
@@ -55,9 +55,21 @@
       {"date": "2025-06-13", "type": "Total Views", "value": 2},
       {"date": "2025-06-14", "type": "Total Views", "value": 0},
       {"date": "2025-06-15", "type": "Total Views", "value": 3},
+      {"date": "2025-06-16", "type": "Total Views", "value": 0},
+      {"date": "2025-06-17", "type": "Total Views", "value": 0},
+      {"date": "2025-06-18", "type": "Total Views", "value": 0},
+      {"date": "2025-06-19", "type": "Total Views", "value": 0},
+      {"date": "2025-06-20", "type": "Total Views", "value": 0},
+      {"date": "2025-06-21", "type": "Total Views", "value": 3},
       {"date": "2025-06-13", "type": "Unique Views", "value": 1},
       {"date": "2025-06-14", "type": "Unique Views", "value": 0},
-      {"date": "2025-06-15", "type": "Unique Views", "value": 1}
+      {"date": "2025-06-15", "type": "Unique Views", "value": 1},
+      {"date": "2025-06-16", "type": "Unique Views", "value": 0},
+      {"date": "2025-06-17", "type": "Unique Views", "value": 0},
+      {"date": "2025-06-18", "type": "Unique Views", "value": 0},
+      {"date": "2025-06-19", "type": "Unique Views", "value": 0},
+      {"date": "2025-06-20", "type": "Unique Views", "value": 0},
+      {"date": "2025-06-21", "type": "Unique Views", "value": 1}
     ]
   },
   "mark": "line",
@@ -110,6 +122,7 @@
       {"date": "2025-06-18", "type": "Total Clones", "value": 4},
       {"date": "2025-06-19", "type": "Total Clones", "value": 2},
       {"date": "2025-06-20", "type": "Total Clones", "value": 2},
+      {"date": "2025-06-21", "type": "Total Clones", "value": 3},
       {"date": "2025-06-10", "type": "Unique Clones", "value": 8},
       {"date": "2025-06-11", "type": "Unique Clones", "value": 5},
       {"date": "2025-06-12", "type": "Unique Clones", "value": 0},
@@ -120,7 +133,8 @@
       {"date": "2025-06-17", "type": "Unique Clones", "value": 2},
       {"date": "2025-06-18", "type": "Unique Clones", "value": 3},
       {"date": "2025-06-19", "type": "Unique Clones", "value": 1},
-      {"date": "2025-06-20", "type": "Unique Clones", "value": 1}
+      {"date": "2025-06-20", "type": "Unique Clones", "value": 1},
+      {"date": "2025-06-21", "type": "Unique Clones", "value": 2}
     ]
   },
   "mark": "line",
