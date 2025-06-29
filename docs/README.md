@@ -30,7 +30,7 @@
   "title": "Top 10 Repositories by Git Clones",
   "data": {
     "values": [
-      {"repository": "vk_ads_test", "clones": 66}
+      {"repository": "vk_ads_test", "clones": 68}
     ]
   },
   "mark": "bar",
@@ -129,6 +129,7 @@
       {"date": "2025-06-25", "type": "Total Clones", "value": 2},
       {"date": "2025-06-26", "type": "Total Clones", "value": 2},
       {"date": "2025-06-27", "type": "Total Clones", "value": 2},
+      {"date": "2025-06-28", "type": "Total Clones", "value": 2},
       {"date": "2025-06-10", "type": "Unique Clones", "value": 8},
       {"date": "2025-06-11", "type": "Unique Clones", "value": 5},
       {"date": "2025-06-12", "type": "Unique Clones", "value": 0},
@@ -146,7 +147,8 @@
       {"date": "2025-06-24", "type": "Unique Clones", "value": 1},
       {"date": "2025-06-25", "type": "Unique Clones", "value": 1},
       {"date": "2025-06-26", "type": "Unique Clones", "value": 1},
-      {"date": "2025-06-27", "type": "Unique Clones", "value": 1}
+      {"date": "2025-06-27", "type": "Unique Clones", "value": 1},
+      {"date": "2025-06-28", "type": "Unique Clones", "value": 1}
     ]
   },
   "mark": "line",
@@ -182,5 +184,4 @@
 
 | Referral Source | Views | Unique Visitors |
 |-|-|-|
-| github.com | 3 | 1 |
 
