@@ -10,7 +10,7 @@
   "title": "Top 10 Repositories by Visitors",
   "data": {
     "values": [
-      {"repository": "vk_ads_test", "views": 0}
+      {"repository": "vk_ads_test", "views": 16}
     ]
   },
   "mark": "bar",
@@ -30,7 +30,7 @@
   "title": "Top 10 Repositories by Git Clones",
   "data": {
     "values": [
-      {"repository": "vk_ads_test", "clones": 60}
+      {"repository": "vk_ads_test", "clones": 61}
     ]
   },
   "mark": "bar",
@@ -52,8 +52,8 @@
   "title": "Visitors for source-Alexander-Rudenko/vk_ads_test",
   "data": {
     "values": [
-      ,
-      
+      {"date": "2025-08-03", "type": "Total Views", "value": 16},
+      {"date": "2025-08-03", "type": "Unique Views", "value": 1}
     ]
   },
   "mark": "line",
@@ -120,6 +120,7 @@
       {"date": "2025-07-31", "type": "Total Clones", "value": 1},
       {"date": "2025-08-01", "type": "Total Clones", "value": 1},
       {"date": "2025-08-02", "type": "Total Clones", "value": 2},
+      {"date": "2025-08-03", "type": "Total Clones", "value": 1},
       {"date": "2025-07-09", "type": "Unique Clones", "value": 1},
       {"date": "2025-07-10", "type": "Unique Clones", "value": 1},
       {"date": "2025-07-11", "type": "Unique Clones", "value": 1},
@@ -144,7 +145,8 @@
       {"date": "2025-07-30", "type": "Unique Clones", "value": 3},
       {"date": "2025-07-31", "type": "Unique Clones", "value": 1},
       {"date": "2025-08-01", "type": "Unique Clones", "value": 1},
-      {"date": "2025-08-02", "type": "Unique Clones", "value": 2}
+      {"date": "2025-08-02", "type": "Unique Clones", "value": 2},
+      {"date": "2025-08-03", "type": "Unique Clones", "value": 1}
     ]
   },
   "mark": "line",
