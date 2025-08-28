@@ -30,7 +30,7 @@
   "title": "Top 10 Repositories by Git Clones",
   "data": {
     "values": [
-      {"repository": "vk_ads_test", "clones": 105}
+      {"repository": "vk_ads_test", "clones": 108}
     ]
   },
   "mark": "bar",
@@ -144,6 +144,7 @@
       {"date": "2025-08-24", "type": "Total Clones", "value": 2},
       {"date": "2025-08-25", "type": "Total Clones", "value": 3},
       {"date": "2025-08-26", "type": "Total Clones", "value": 1},
+      {"date": "2025-08-27", "type": "Total Clones", "value": 3},
       {"date": "2025-07-09", "type": "Unique Clones", "value": 1},
       {"date": "2025-07-10", "type": "Unique Clones", "value": 1},
       {"date": "2025-07-11", "type": "Unique Clones", "value": 1},
@@ -192,7 +193,8 @@
       {"date": "2025-08-23", "type": "Unique Clones", "value": 2},
       {"date": "2025-08-24", "type": "Unique Clones", "value": 2},
       {"date": "2025-08-25", "type": "Unique Clones", "value": 3},
-      {"date": "2025-08-26", "type": "Unique Clones", "value": 1}
+      {"date": "2025-08-26", "type": "Unique Clones", "value": 1},
+      {"date": "2025-08-27", "type": "Unique Clones", "value": 3}
     ]
   },
   "mark": "line",
